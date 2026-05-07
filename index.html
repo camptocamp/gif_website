@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetItFixed! - Le module ultime de signalement pour GeoMapFish</title>
+    <meta name="description" content="GetItFixed est un module complet de gestion et de signalement d'anomalies, conçu spécifiquement pour s'intégrer parfaitement à GeoMapFish.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">GetItFixed<span>!</span></div>
+            <ul class="nav-links">
+                <li><a href="#features">Fonctionnalités</a></li>
+                <li><a href="#screenshots">Captures</a></li>
+                <li><a href="#integration">Intégration</a></li>
+                <li><a href="#deploy">Déploiement</a></li>
+            </ul>
+            <a href="https://github.com/camptocamp/getitfixed" class="btn btn-outline" target="_blank">Voir sur GitHub</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="animate-up">Signalez. Gérez. <span class="text-gradient">Corrigez.</span></h1>
+            <p class="subtitle animate-up delay-1">Le module ultime de suivi des problèmes conçu pour une intégration parfaite et transparente avec vos projets <strong>GeoMapFish</strong>.</p>
+            <div class="cta-group animate-up delay-2">
+                <a href="#features" class="btn btn-primary">Découvrir les fonctionnalités</a>
+                <a href="https://geomapfish-demo.camptocamp.com/getitfixed/getitfixed/issues" class="btn btn-secondary" target="_blank">Voir la Démo</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Un outil conçu pour l'efficacité</h2>
+            <div class="grid features-grid">
+                
+                <div class="card feature-card reveal">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Interfaces Dédicacées</h3>
+                    <p>Disposez d'une interface publique intuitive pour que vos utilisateurs signalent des problèmes, et d'une interface d'administration puissante pour que vos équipes les gèrent.</p>
+                </div>
+
+                <div class="card feature-card reveal delay-1">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    </div>
+                    <h3>Catégories Sur-Mesure</h3>
+                    <p>Définissez vos propres catégories et types d'anomalies. Associez-y des icônes personnalisées pour une identification visuelle rapide sur la carte.</p>
+                </div>
+
+                <div class="card feature-card reveal delay-2">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <h3>Notifications E-mail</h3>
+                    <p>Restez informé en temps réel. Le système envoie automatiquement des e-mails via votre serveur SMTP lors de la création ou de la mise à jour des tickets.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="screenshots" class="section screenshots-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="eyebrow">Captures d'écran</span>
+                <h2 class="section-title">L'application en action</h2>
+                <p class="section-intro">Montrez immédiatement la valeur de GetItFixed! avec une interface cartographique claire pour le signalement et un suivi métier pensé pour les équipes terrain.</p>
+            </div>
+
+            <div class="grid screenshot-grid">
+                <article class="screenshot-card glass-card reveal">
+                    <div class="screenshot-frame desktop-frame">
+                        <img src="assets/img/getitfixed-map-overview-desktop.png" alt="Vue d'ensemble cartographique de GetItFixed avec les signalements sur la carte">
+                    </div>
+                    <div class="screenshot-copy">
+                        <h3>Signalement cartographique</h3>
+                        <p>Une carte claire pour visualiser les incidents, guider les usagers et accélérer la remontée des problèmes.</p>
+                    </div>
+                </article>
+
+                <article class="screenshot-card glass-card reveal delay-1">
+                    <div class="screenshot-frame desktop-frame">
+                        <img src="assets/img/getitfixed-issue-tracking-desktop.png" alt="Interface de suivi d'un incident dans GetItFixed avec statut et historique">
+                    </div>
+                    <div class="screenshot-copy">
+                        <h3>Suivi opérationnel</h3>
+                        <p>Un tableau de suivi simple pour qualifier, traiter et historiser chaque incident jusqu'à sa résolution.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="integration" class="section highlight-section">
+        <div class="container">
+            <div class="split-layout">
+                <div class="content-side reveal">
+                    <h2 class="section-title">Intégration GeoMapFish Native</h2>
+                    <p>GetItFixed! a été pensé dès le départ pour fonctionner en harmonie avec GeoMapFish. L'ajout du module se fait en quelques étapes simples :</p>
+                    <ul class="check-list">
+                        <li>Ajout de la configuration dans votre fichier <code>vars.yaml</code></li>
+                        <li>Création du schéma de base de données via <code>Alembic</code></li>
+                        <li>Attribution des droits <code>getitfixed_admin</code> aux rôles appropriés</li>
+                    </ul>
+                </div>
+                <div class="code-side reveal delay-1">
+                    <div class="code-block glass-card">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code><span class="keyword">class</span> <span class="class-name">Root</span>:
+    __acl__ = [
+        (Allow, <span class="string">'role_admin'</span>, ALL_PERMISSIONS),
+        (Allow, <span class="string">'role_getitfixed'</span>, <span class="string">'getitfixed_admin'</span>),
+    ]</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="deploy" class="section">
+        <div class="container center-content text-center reveal">
+            <h2 class="section-title">Prêt à déployer avec Docker</h2>
+            <p class="max-width-p">Oubliez les installations complexes. GetItFixed s'appuie sur des conteneurs Docker pour un déploiement fiable et reproductible, que ce soit en développement ou en production.</p>
+            
+            <div class="terminal-mockup glass-card">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="title">bash</span>
+                </div>
+                <pre><code><span class="prompt">$</span> git clone git@github.com:camptocamp/getitfixed.git
+<span class="prompt">$</span> cd getitfixed
+<span class="prompt">$</span> make meacoffee <span class="comment"># Lance le projet avec des données de test</span></code></pre>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="brand">GetItFixed<span>!</span></div>
+                <p>Propulsé par <a href="https://github.com/camptocamp/getitfixed" target="_blank">Camptocamp</a>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
